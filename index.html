@@ -11,11 +11,12 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+      <h2>Open the Console to See What's Happening</h2>
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
+        <button type="button" class="collapsible">HTML</button>
+        <div class="content">
         <ul>
           <li>The head element contains information about the webpage.</li>
           <li>The body element represents the visible content shown to the user.</li>
@@ -24,43 +25,50 @@
           <li>Doctype goes at the top of the file and shows that the file is in HTML.</li>
           <li>Inside the head element is metadata used by the browser to describe the website.</li>
         </ul>
+      </div>
       </section>
       <section class="card" id="css-section">
-        <h2>Css</h2>
+        <button type="button" class="collapsible">Css</button>
+        <div class="content">
         <ul>
           <li>A margin indicates how much space we want around the outside of an element.</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
-          <li>A border adds a border of specified width around the element</li>
-          <li>A box shadow adds a shadow to around the element</li>
+          <li>A padding indicates how much space we want around the content inside and element.</li>
+          <li>A border adds a border of specified width around the element.</li>
+          <li>A box shadow adds a shadow to around the element.</li>
         </ul>
+      </div>
       </section>
       <section class="card" id="git-section">
-        <h2>Git</h2>
+        <button type="button" class="collapsible">Git</button>
+        <div class="content">
         <ul>
           <li>git status: checks what branch we are currently on.</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
-          <li>git add -A: adds all files to staging area.</li>
-          <li>git commit -m message: creates a commit to the branch youre on.</li>
+          <li>git add -A: adds all files to a staging area.</li>
+          <li>git commit -m message: creates a commit to the branch you're on.</li>
           <li>git pull origin main: makes sure there are no conflicts with main.</li>
           <li>git push origin branch: pushes your changes to the branch.</li>
         </ul>
+      </div>
       </section>
       <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
+        <button type="button" class="collapsible">JavaScript</button>
+        <div class="content">
         <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>A variable is named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
-          <li>A function is a group of code that can be called multiple times without rewriting the code.</li>
-          <li>an array is a list of data that can be called with a variable.</li>
+          <li>A function is a group of code that can be called multiple times without rewriting code.</li>
+          <li>An array is a list of data that can be called with a variable.</li>
         </ul>
-
+      </div>
       </section>
     
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>No more notes here yet!</p>
     </footer>
     <script src="./assets/script.js"></script>
+    <script src="./assets/collapse.js"></script>
   </body>
 </html>
