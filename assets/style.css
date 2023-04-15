@@ -36,3 +36,26 @@ p {
     border: 5px solid royalblue;
     box-shadow: 5px 10px #888888;
   }
+.collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: royalblue;
+    font-size: 24px;
+    font-weight: bolder;
+    box-shadow: #888888;
+}
+.active, .collapsible:hover {
+    background-color: lightskyblue;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white ;
+
+}
